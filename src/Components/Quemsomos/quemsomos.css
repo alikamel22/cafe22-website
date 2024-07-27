@@ -1,0 +1,52 @@
+.quemsomos-titulo {
+    text-align: left;
+    background-color: rgb(243, 231, 213);
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 40px;
+    color: rgb(45, 13, 13);
+}
+
+.quemsomos-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(243, 231, 213);
+    color: rgb(45, 13, 13);
+    font-family: Helvetica;
+    font-size: 24px;
+}
+
+.quemsomos-imagem-cafe {
+    background: url("../../assets/planta_cafe.png") no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    width: 200px;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.quemsomos-titulo-descricao {
+    padding: 0px;
+    flex: 1;
+    box-sizing: border-box;
+    background-color: rgb(243, 231, 213);
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.mosaico {
+    background: url("../../assets/mosaico_arabe.png") repeat-x;
+    height: 35px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    .quemsomos-imagem-cafe, .quemsomos-titulo-descricao {
+        flex: 100%;
+    }
+}

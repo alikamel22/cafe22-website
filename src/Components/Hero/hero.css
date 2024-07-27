@@ -1,0 +1,26 @@
+.background-image-cafe {
+    background: url("../../assets/cafe_turco.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.background-overlay {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    align-items: center;
+    display: flex;
+}
+
+.titulo-cafe22 {
+    font-family: georgia;
+    color: white;
+    font-size: 90px;
+    margin-left: 30px;
+
+}

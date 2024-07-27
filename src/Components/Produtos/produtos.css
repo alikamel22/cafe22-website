@@ -1,0 +1,66 @@
+.container-produtos{
+    background-color: rgb(243, 231, 213);
+}
+
+.titulo{
+    text-align: center;
+    font-family: helvetica;
+    font-size: 40px;
+    color: rgb(45, 13, 13);
+    background-color: rgb(243, 231, 213);
+    margin: 0;
+    padding: 60px;
+}
+
+.cards {
+    text-align: center;
+    background-color: rgb(243, 231, 213);
+    margin-bottom: 30px;
+}
+
+.div-cafe-card {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.1);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    max-width: 300px;
+    display: inline-block;
+    background-color: rgb(243, 231, 213);
+    font-family: helvetica;
+    color: rgb(45, 13, 13);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.div-cafe-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-card {
+    font-size: 20px;
+}
+
+.img-cafe-trad {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-cafe-cardamomo {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-cafe-gourmet {
+    max-width: 100%;
+    height: auto;
+}
+
+.mosaico {
+    background: url("../../assets/mosaico_arabe.png") repeat-x;
+    height: 35px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}

@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px;
+    background-color: rgb(48,4,2)
+}
+
+.navbar a{
+    font-family: helvetica;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    margin-left: 20px;
+}
